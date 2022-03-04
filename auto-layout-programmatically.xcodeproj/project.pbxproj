@@ -51,6 +51,7 @@
 		1D39AF6F27D1DFF00074EAE2 /* auto_layout_programmaticallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_layout_programmaticallyUITests.swift; sourceTree = "<group>"; };
 		1D39AF7127D1DFF00074EAE2 /* auto_layout_programmaticallyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_layout_programmaticallyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1D39AF8027D2054B0074EAE2 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		DB9AECA227D2412B00B8AC44 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		1D39AF4227D1DFE70074EAE2 = {
 			isa = PBXGroup;
 			children = (
+				DB9AECA227D2412B00B8AC44 /* README.md */,
 				1D39AF4D27D1DFE70074EAE2 /* auto-layout-programmatically */,
 				1D39AF6427D1DFF00074EAE2 /* auto-layout-programmaticallyTests */,
 				1D39AF6E27D1DFF00074EAE2 /* auto-layout-programmaticallyUITests */,
