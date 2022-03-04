@@ -16,6 +16,7 @@
 		1D39AF6627D1DFF00074EAE2 /* auto_layout_programmaticallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39AF6527D1DFF00074EAE2 /* auto_layout_programmaticallyTests.swift */; };
 		1D39AF7027D1DFF00074EAE2 /* auto_layout_programmaticallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39AF6F27D1DFF00074EAE2 /* auto_layout_programmaticallyUITests.swift */; };
 		1D39AF7227D1DFF00074EAE2 /* auto_layout_programmaticallyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39AF7127D1DFF00074EAE2 /* auto_layout_programmaticallyUITestsLaunchTests.swift */; };
+		1D39AF8127D2054B0074EAE2 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39AF8027D2054B0074EAE2 /* SwipingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1D39AF6B27D1DFF00074EAE2 /* auto-layout-programmaticallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "auto-layout-programmaticallyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D39AF6F27D1DFF00074EAE2 /* auto_layout_programmaticallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_layout_programmaticallyUITests.swift; sourceTree = "<group>"; };
 		1D39AF7127D1DFF00074EAE2 /* auto_layout_programmaticallyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = auto_layout_programmaticallyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1D39AF8027D2054B0074EAE2 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				1D39AF5227D1DFE70074EAE2 /* ViewController.swift */,
 				1D39AF5427D1DFE70074EAE2 /* Main.storyboard */,
 				1D39AF5727D1DFF00074EAE2 /* Assets.xcassets */,
+				1D39AF8027D2054B0074EAE2 /* SwipingController.swift */,
 				1D39AF5927D1DFF00074EAE2 /* LaunchScreen.storyboard */,
 				1D39AF5C27D1DFF00074EAE2 /* Info.plist */,
 			);
@@ -261,6 +264,7 @@
 				1D39AF5327D1DFE70074EAE2 /* ViewController.swift in Sources */,
 				1D39AF4F27D1DFE70074EAE2 /* AppDelegate.swift in Sources */,
 				1D39AF5127D1DFE70074EAE2 /* SceneDelegate.swift in Sources */,
+				1D39AF8127D2054B0074EAE2 /* SwipingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
