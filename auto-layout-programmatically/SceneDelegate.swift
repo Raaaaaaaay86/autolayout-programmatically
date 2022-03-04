@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
        
         let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
         let swipingController = SwipingController(collectionViewLayout: layout)
         
         window?.rootViewController = swipingController
