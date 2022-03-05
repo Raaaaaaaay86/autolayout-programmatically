@@ -11,6 +11,21 @@ import UIKit
 
 class SwipingController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        coordinator.animate { (_) in
+            self.collectionViewLayout.invalidateLayout()
+            if self.pageControl.currentPage == 0 {
+                self.collectionView.contentOffset = .zero
+            } else {
+                let indexPath = IndexPath(item: self.pageControl.currentPage, section: 0)
+                self.collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+            }
+        } completion: { (_) in
+            
+        }
+
+    }
+    
     let pages  = [
         Page(imageName: "app_logo", headerText: "Join us today in our fun and games 01", contentText: "Are you ready for loads and loads of fun?\nDon't wait any longer! We hope to see you in our stores soon! 01"),
         Page(imageName: "app_music", headerText: "Join us today in our fun and games 02", contentText: "Are you ready for loads and loads of fun?\nDon't wait any longer! We hope to see you in our stores soon! 02"),
@@ -30,6 +45,7 @@ class SwipingController: UICollectionViewController, UICollectionViewDelegateFlo
     
     @objc private func handlePrevious() {
         let isFirstPage = pageControl.currentPage > 0
+        
         guard isFirstPage else { return }
         
         let prevIndex = pageControl.currentPage - 1
