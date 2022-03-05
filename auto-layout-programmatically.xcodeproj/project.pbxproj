@@ -18,6 +18,7 @@
 		1D39AF7227D1DFF00074EAE2 /* auto_layout_programmaticallyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39AF7127D1DFF00074EAE2 /* auto_layout_programmaticallyUITestsLaunchTests.swift */; };
 		1D39AF8127D2054B0074EAE2 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D39AF8027D2054B0074EAE2 /* SwipingController.swift */; };
 		DB8D102C27D2BCF8009EEA3B /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D102B27D2BCF8009EEA3B /* PageCell.swift */; };
+		DBA0C9A527D340CC0048285A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA0C9A427D340CC0048285A /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		1D39AF8027D2054B0074EAE2 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 		DB8D102B27D2BCF8009EEA3B /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		DB9AECA227D2412B00B8AC44 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DBA0C9A427D340CC0048285A /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		1D39AF4D27D1DFE70074EAE2 /* auto-layout-programmatically */ = {
 			isa = PBXGroup;
 			children = (
+				DBA0C9A427D340CC0048285A /* Page.swift */,
 				1D39AF4E27D1DFE70074EAE2 /* AppDelegate.swift */,
 				1D39AF5027D1DFE70074EAE2 /* SceneDelegate.swift */,
 				1D39AF5227D1DFE70074EAE2 /* ViewController.swift */,
@@ -269,6 +272,7 @@
 				1D39AF5327D1DFE70074EAE2 /* ViewController.swift in Sources */,
 				DB8D102C27D2BCF8009EEA3B /* PageCell.swift in Sources */,
 				1D39AF4F27D1DFE70074EAE2 /* AppDelegate.swift in Sources */,
+				DBA0C9A527D340CC0048285A /* Page.swift in Sources */,
 				1D39AF5127D1DFE70074EAE2 /* SceneDelegate.swift in Sources */,
 				1D39AF8127D2054B0074EAE2 /* SwipingController.swift in Sources */,
 			);

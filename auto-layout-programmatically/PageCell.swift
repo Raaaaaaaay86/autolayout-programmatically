@@ -9,6 +9,25 @@ import UIKit
 
 class PageCell: UICollectionViewCell {
     
+    var page: Page? {
+        didSet {
+            guard let unwrappedPage = page else { return }
+            logoImageView.image = UIImage(named: unwrappedPage.imageName)
+            
+            let attributedText = NSMutableAttributedString(string: unwrappedPage.headerText, attributes: [
+                NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 18),
+            ])
+            
+            attributedText.append(NSAttributedString(string: "\n\n\n\(unwrappedPage.contentText)", attributes: [
+                NSAttributedString.Key.font: UIFont.systemFont(ofSize: 13),
+                NSAttributedString.Key.foregroundColor: UIColor.gray
+            ]))
+            
+            descriptionTextView.attributedText = attributedText
+            descriptionTextView.textAlignment = .center
+        }
+    }
+    
     private let logoImageView: UIImageView = {
         let imageView = UIImageView(image: UIImage(named: "app_logo"))
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -28,7 +47,6 @@ class PageCell: UICollectionViewCell {
         
         textView.attributedText = attributedText
         textView.translatesAutoresizingMaskIntoConstraints = false
-        textView.textAlignment = .center
         textView.isEditable = false
         textView.isScrollEnabled = false
         return textView
